@@ -25,6 +25,7 @@ jobs:
     - name: Build
       working-directory: ./web/src
       run: |
+        npm install -D webpack-cli
         npm install
         npx webpack
         
