@@ -23,7 +23,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
-      working-directory: ./web/src
+      working-directory: ./web
       run: |
         npm install -D webpack-cli
         npm install
